@@ -1,0 +1,8 @@
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\bin\Release\XIVCalc.exe.config
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\bin\Release\XIVCalc.exe
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\bin\Release\XIVCalc.pdb
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Release\DrgCalc.Form1.resources
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Release\XIVCalc.Properties.Resources.resources
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Release\XIVCalc.csproj.GenerateResource.Cache
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Release\XIVCalc.exe
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Release\XIVCalc.pdb
