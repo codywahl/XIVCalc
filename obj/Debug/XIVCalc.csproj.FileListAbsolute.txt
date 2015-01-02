@@ -1,0 +1,8 @@
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.Form1.resources
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\XIVCalc.csproj.GenerateResource.Cache
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\bin\Debug\XIVCalc.exe.config
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\bin\Debug\XIVCalc.exe
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\bin\Debug\XIVCalc.pdb
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\XIVCalc.Properties.Resources.resources
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\XIVCalc.exe
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\XIVCalc.pdb
