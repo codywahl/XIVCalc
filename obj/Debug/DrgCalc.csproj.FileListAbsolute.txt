@@ -1,0 +1,18 @@
+C:\Users\cwahl\Documents\Cody Wahl\Sandboxes\DrgCalc\DrgCalc\bin\Debug\DrgCalc.exe.config
+C:\Users\cwahl\Documents\Cody Wahl\Sandboxes\DrgCalc\DrgCalc\bin\Debug\DrgCalc.exe
+C:\Users\cwahl\Documents\Cody Wahl\Sandboxes\DrgCalc\DrgCalc\bin\Debug\DrgCalc.pdb
+C:\Users\cwahl\Documents\Cody Wahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.Form1.resources
+C:\Users\cwahl\Documents\Cody Wahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.Properties.Resources.resources
+C:\Users\cwahl\Documents\Cody Wahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.csproj.GenerateResource.Cache
+C:\Users\cwahl\Documents\Cody Wahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.exe
+C:\Users\cwahl\Documents\Cody Wahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.pdb
+C:\Users\cwahl\Documents\Cody Wahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.csprojResolveAssemblyReference.cache
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\bin\Debug\DrgCalc.exe.config
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.exe
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.pdb
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\bin\Debug\DrgCalc.exe
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\bin\Debug\DrgCalc.pdb
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.Form1.resources
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.Properties.Resources.resources
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.csproj.GenerateResource.Cache
+H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\DrgCalc.csprojResolveAssemblyReference.cache
