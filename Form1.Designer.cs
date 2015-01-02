@@ -52,6 +52,7 @@
             this.ninButton = new System.Windows.Forms.RadioButton();
             this.weaponDamageTextBox = new System.Windows.Forms.TextBox();
             this.weaponDamageLabel = new System.Windows.Forms.Label();
+            this.minimizeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // strengthTextBox
@@ -172,7 +173,7 @@
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.closeButton.ForeColor = System.Drawing.Color.White;
-            this.closeButton.Location = new System.Drawing.Point(266, 0);
+            this.closeButton.Location = new System.Drawing.Point(268, 0);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(23, 23);
             this.closeButton.TabIndex = 8;
@@ -282,7 +283,7 @@
             this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.helpButton.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpButton.ForeColor = System.Drawing.Color.White;
-            this.helpButton.Location = new System.Drawing.Point(244, 0);
+            this.helpButton.Location = new System.Drawing.Point(246, 0);
             this.helpButton.Name = "helpButton";
             this.helpButton.Size = new System.Drawing.Size(23, 23);
             this.helpButton.TabIndex = 18;
@@ -339,12 +340,26 @@
             this.weaponDamageLabel.Text = "Weapon Damage";
             this.weaponDamageLabel.MouseHover += new System.EventHandler(this.weaponDamageLabel_MouseHover);
             // 
+            // minimizeButton
+            // 
+            this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.minimizeButton.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minimizeButton.ForeColor = System.Drawing.Color.White;
+            this.minimizeButton.Location = new System.Drawing.Point(224, 0);
+            this.minimizeButton.Name = "minimizeButton";
+            this.minimizeButton.Size = new System.Drawing.Size(23, 23);
+            this.minimizeButton.TabIndex = 23;
+            this.minimizeButton.Text = "_";
+            this.minimizeButton.UseVisualStyleBackColor = true;
+            this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(291, 351);
+            this.Controls.Add(this.minimizeButton);
             this.Controls.Add(this.weaponDamageTextBox);
             this.Controls.Add(this.weaponDamageLabel);
             this.Controls.Add(this.ninButton);
@@ -404,6 +419,7 @@
         private System.Windows.Forms.RadioButton ninButton;
         private System.Windows.Forms.TextBox weaponDamageTextBox;
         private System.Windows.Forms.Label weaponDamageLabel;
+        private System.Windows.Forms.Button minimizeButton;
     }
 }
 

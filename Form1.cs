@@ -416,6 +416,11 @@ namespace DrgCalc
             }
         }
 
+        private void minimizeButton_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
         private void helpButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
@@ -431,5 +436,6 @@ namespace DrgCalc
         }
 
         #endregion Other Handlers
+
     }
 }
