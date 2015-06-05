@@ -6,11 +6,11 @@ H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\bin\Debug\XIVCalc.pdb
 H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\XIVCalc.Properties.Resources.resources
 H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\XIVCalc.exe
 H:\CodyWahl\Sandboxes\DrgCalc\DrgCalc\obj\Debug\XIVCalc.pdb
-E:\Coding\GitHub\XIVCalc\bin\Debug\XIVCalc.exe.config
-E:\Coding\GitHub\XIVCalc\obj\Debug\XIVCalc.exe
-E:\Coding\GitHub\XIVCalc\obj\Debug\XIVCalc.pdb
-E:\Coding\GitHub\XIVCalc\obj\Debug\DrgCalc.Form1.resources
+E:\Coding\GitHub\XIVCalc\obj\Debug\XIVCalc.XIVCalcForm.resources
 E:\Coding\GitHub\XIVCalc\obj\Debug\XIVCalc.Properties.Resources.resources
 E:\Coding\GitHub\XIVCalc\obj\Debug\XIVCalc.csproj.GenerateResource.Cache
+E:\Coding\GitHub\XIVCalc\bin\Debug\XIVCalc.exe.config
 E:\Coding\GitHub\XIVCalc\bin\Debug\XIVCalc.exe
 E:\Coding\GitHub\XIVCalc\bin\Debug\XIVCalc.pdb
+E:\Coding\GitHub\XIVCalc\obj\Debug\XIVCalc.exe
+E:\Coding\GitHub\XIVCalc\obj\Debug\XIVCalc.pdb
