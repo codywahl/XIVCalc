@@ -10,7 +10,6 @@ namespace DrgCalc
 
         //Form Move data members
         private const int WM_NCLBUTTONDOWN = 0xA1;
-
         private const int HT_CAPTION = 0x2;
 
         //Job constants
@@ -56,6 +55,27 @@ namespace DrgCalc
         private const int PLD_SKILLSPEED_VALUE = 178;
 
         private const double DIVISOR = .001;
+
+        //Message Constants
+        private const string BLM_MESSAGE =
+                @"Notice: BLM stat weights do not work similar to other jobs.
+
+                  BLM stat weights change based on gear combinations.
+                  For more information on BLM gear sets, click 'YES'.";
+
+        private const string BLM_MESSAGE_TITLE = "{Please check it.}";
+        private const string BLM_THEORY_HYPERLINK = "https://docs.google.com/spreadsheet/lv?key=0AqG_cUArVwt5dExEVEJIRmJHd2lrczg4cnZxTDVkM1E&toomany=true";
+
+        private const string HELP_MESSAGE = @"Purpose: Using stat weights discovered through testing, this calculator translates secondary stat values into a total primary stat value. For example, if Determination was discovered to be worth .25 STR for DRG, 4 determination would equal 1 STR." + Environment.NewLine +
+                 "This allows for simple comparison between different items or gear sets." + Environment.NewLine + Environment.NewLine +
+                 "Weapon Damage: The value for your weapon damage." + Environment.NewLine +
+                 "STR/DEX/INT: The primary stat of the desired job." + Environment.NewLine +
+                 "Determination: The determination stat." + Environment.NewLine +
+                 "Critical: The critical chance stat." + Environment.NewLine +
+                 "Skill speed: The spell/skill speed stat." + Environment.NewLine + Environment.NewLine +
+                 "Damage value: The resulting value of the secondary stats translated into the primary stat.";
+
+        private const string HELP_MESSAGE_TITLE = "{Help me out!}";
 
         #endregion Constants
 
@@ -335,13 +355,9 @@ namespace DrgCalc
             {
                 damageTextBox.Text = GetDamageValue().ToString();
 
-                if (MessageBox.Show(@"Notice: BLM stat weights do not work similar to other jobs.
-
-                              BLM stat weights change based on gear combinations.
-                              For more information on BLM gear sets, click 'YES'.
-                              ", "{Please check it.}", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
+                if (MessageBox.Show(BLM_MESSAGE, BLM_MESSAGE_TITLE, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
                 {
-                    System.Diagnostics.Process.Start("https://docs.google.com/spreadsheet/lv?key=0AqG_cUArVwt5dExEVEJIRmJHd2lrczg4cnZxTDVkM1E&toomany=true");
+                    System.Diagnostics.Process.Start(BLM_THEORY_HYPERLINK);
                 }
             }
         }
@@ -423,19 +439,9 @@ namespace DrgCalc
 
         private void helpButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(
-                @"Purpose: Using stat weights discovered through testing, this calculator translates secondary stat values into a total primary stat value. For example, if Determination was discovered to be worth .25 STR for DRG, 4 determination would equal 1 STR." + Environment.NewLine +
-                 "This allows for simple comparison between different items or gear sets." + Environment.NewLine + Environment.NewLine +
-                 "Weapon Damage: The value for your weapon damage." + Environment.NewLine +
-                 "STR/DEX/INT: The primary stat of the desired job." + Environment.NewLine +
-                 "Determination: The determination stat." + Environment.NewLine +
-                 "Critical: The critical chance stat." + Environment.NewLine +
-                 "Skill speed: The spell/skill speed stat." + Environment.NewLine + Environment.NewLine +
-                 "Damage value: The resulting value of the secondary stats translated into the primary stat.", "{Help me out!}", MessageBoxButtons.OK, MessageBoxIcon.Question
-                );
+            MessageBox.Show(HELP_MESSAGE, HELP_MESSAGE_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
 
         #endregion Other Handlers
-
     }
 }
