@@ -1,11 +1,10 @@
 ﻿/*
  * FFXIV-ARR Character Stat Calculator: By Cody Wahl, Software Developer
- * Relevant document for AreaNet Tools Programmer application. 
- * 
+ *
  * Purpose: Using values obtained from theory crafting, this application generates an overall score
  *          from the combination of various primary and secondary stat weights, allowing for a user
- *          to determine an optionmal gear combination. 
- *          
+ *          to determine an optionmal gear combination.
+ *
  * */
 
 using System;
@@ -13,13 +12,14 @@ using System.Runtime.InteropServices; // Needed for mouse move
 using System.Windows.Forms;
 
 namespace XIVCalc
-{   
+{
     public partial class XIVCalcForm : Form
     {
         #region Constants
 
         //Form Move data members
         private const int WM_NCLBUTTONDOWN = 0xA1;
+
         private const int HT_CAPTION = 0x2;
 
         //Job constants
@@ -93,12 +93,14 @@ namespace XIVCalc
 
         //Stat Values
         private int weapondamage_value;
+
         private int determination_value;
         private int critical_value;
         private int skillspeed_value;
 
         //ToolTips
         private ToolTip weaponDamageToolTip = new ToolTip();
+
         private ToolTip primaryToolTip = new ToolTip();
         private ToolTip determinationToolTip = new ToolTip();
         private ToolTip criticalToolTip = new ToolTip();

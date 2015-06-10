@@ -14,3 +14,11 @@ E:\Coding\GitHub\XIVCalc\bin\Debug\XIVCalc.exe
 E:\Coding\GitHub\XIVCalc\bin\Debug\XIVCalc.pdb
 E:\Coding\GitHub\XIVCalc\obj\Debug\XIVCalc.exe
 E:\Coding\GitHub\XIVCalc\obj\Debug\XIVCalc.pdb
+H:\CodyWahl\Sandboxes\XIVCalc\XIVCalc\bin\Debug\XIVCalc.exe.config
+H:\CodyWahl\Sandboxes\XIVCalc\XIVCalc\obj\Debug\XIVCalc.exe
+H:\CodyWahl\Sandboxes\XIVCalc\XIVCalc\obj\Debug\XIVCalc.pdb
+H:\CodyWahl\Sandboxes\XIVCalc\XIVCalc\bin\Debug\XIVCalc.exe
+H:\CodyWahl\Sandboxes\XIVCalc\XIVCalc\bin\Debug\XIVCalc.pdb
+H:\CodyWahl\Sandboxes\XIVCalc\XIVCalc\obj\Debug\XIVCalc.XIVCalcForm.resources
+H:\CodyWahl\Sandboxes\XIVCalc\XIVCalc\obj\Debug\XIVCalc.Properties.Resources.resources
+H:\CodyWahl\Sandboxes\XIVCalc\XIVCalc\obj\Debug\XIVCalc.csproj.GenerateResource.Cache
